@@ -1,12 +1,10 @@
 def fizzbuzz(int)
-  if int %5 == 0 && int %3 == 0
-    return "Fizzbuzz"
+  if int %3 == 0
+    puts "Fizz"
   elsif int %5 == 0
-    return "Buzz"
-  elsif int %3 == 0
-    return "Fizz"
-  elsif int %5 != 0 && int %3 != 0
-    return "nil"
+    puts "Buzz"
+  elsif int %5 == 0 && int %3 == 0
+    puts "Fizzbuzz"
   end
 end
 
